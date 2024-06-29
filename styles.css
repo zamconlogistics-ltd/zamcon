@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    color: white;
+    padding: 0px 0;
+    width: 100%;
+    background: rgb(55,46,213);
+    background: linear-gradient(90deg, rgba(55,46,213,1) 21%, rgba(9,51,121,1) 35%, rgb(243, 176, 19) 76%);
+
+}
+
+header h1 {
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+
+
+nav{
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 3%;
+    border-bottom: 1px solid #000;
+    z-index: 10;
+
+}
+
+nav .logo{
+    width: 180px;
+    border-radius: 900px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 50px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('images/IMG-20240625-WA0012.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
+   
+    
+}
+
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+img{
+    width: 800px;
+}
+
+#about h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#services h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    width: 100%;
+}
+ footer p{
+    font-size: 20px;
+ }
+
+.social {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    
+  }
+  
+  .social a {
+    display: inline-block;
+    margin-right: 10px; 
+  }
+  
+
+  .social img {
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%; 
+    box-shadow: 5px 5px 10px #6f7364;
+    transition: transform 0.3s ease-in-out; 
+  }
+
+  
+  .social a:hover img {
+    transform: scale(1.2); 
+    
+  }
+
+ #services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    transition: 0.15s;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    position: relative;
+}
+
+.card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    backface-visibility: hidden;
+}
+
+.card .face.face1 {
+    border: black 8px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: rotateY(0deg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.card:hover .face.face1 {
+    transform: rotateY(180deg);
+}
+
+.card .face.face2 {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: rotateY(-180deg);
+}
+
+.card:hover .face.face2 {
+    transform: rotateY(0deg);
+}
+
+.content2 h3 {
+    font-weight: 900;
+    color: #131212;
+    margin-bottom: 300px;
+}
+
+.content h3 a {
+    color: rgb(201, 15, 15);
+    text-decoration: none;
+}
+
+.content p {
+    color: black;
+    font-weight: 500;
+}
+
+
+/* Individual card background images */
+#card1 .face.face1 {
+    background-image: url('images/z-pl1.jpg');
+    background-size: cover;
+    
+}
+
+#card2 .face.face1 {
+    background-image: url('images/images.png');
+    
+}
+
+#card3 .face.face1 {
+    background-image: url('images/78d9f46b-676d-43b2-abf8-9a446b03feb4.webp');
+}
+
+#card4 .face.face1 {
+    background-image: url('images/b3fc983d-ac6f-4986-a32e-3a1039100330.webp');
+    background-size: contain;
+}
+
+#card5 .face.face1 {
+    background-image: url('images/warehouse.jpg');
+    background-size: cover;
+}
+
+
