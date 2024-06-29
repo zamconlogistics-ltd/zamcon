@@ -90,8 +90,7 @@ nav ul li a {
     justify-content: center; 
     align-items: center; 
     min-height: 100vh;
-   
-    
+      
 }
 
 
@@ -100,23 +99,36 @@ section {
     text-align: center;
 }
 
-img{
-    width: 800px;
+#about {
+    text-align: center;
+    height: auto;
+    
 }
 
-#about{
-    width: 80%;
-    min-height: 100vh;
-}
-
-#about h2{
-    font-size: 30px;
+#about h2 {
+    font-size: 35px;
     margin-bottom: 20px;
 }
 
+#about p {
+    margin-bottom: 20px;
+     font-size: 20px;
+}
+
+#about img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+
 #services h2{
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 10px;
+}
+
+#services p{
+     font-size: 20px;
 }
 
 footer {
@@ -162,13 +174,12 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
 }
 
 .cards-container {
     display: flex;
     justify-content: center;
-    margin: 30px;
+    margin: 10px;
 }
 
 
@@ -177,8 +188,8 @@ footer {
     justify-items: center;
     align-items: center;
     text-align: center;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 450px;
     transition: 0.15s;
     transform-style: preserve-3d;
     perspective: 1000px;
@@ -211,6 +222,7 @@ footer {
 }
 
 .card .face.face2 {
+    height: auto;
     background: #fff;
     display: flex;
     justify-content: center;
@@ -228,24 +240,21 @@ footer {
 .content2 h3 {
     font-weight: 900;
     color: #131212;
-    margin-bottom: 300px;
+    margin-bottom: 350px;
 }
 
-.content h3 a {
-    color: rgb(201, 15, 15);
-    text-decoration: none;
-}
 
 .content p {
     color: black;
     font-weight: 500;
+    font-size: 4%;
 }
 
 
 /* Individual card background images */
 #card1 .face.face1 {
     background-image: url('images/z-pl1.jpg');
-    background-size: cover;
+    background-size: contain;
     
 }
 
@@ -280,6 +289,43 @@ footer {
         font-size: 4%;
     }
 
+    .hero {
+        background: url('images/IMG-20240625-WA0012.jpg') no-repeat center center/cover;
+        color: white;
+        text-align: center;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        min-height: 100vh;
+
+    }
+
+    #about {
+        text-align: center;
+        height: auto;
+        
+    }
+    
+    #about h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    
+    #about p {
+        margin-bottom: 20px;
+         font-size: 20px;
+    }
+    
+    #about img {
+        width: 100%;
+        max-width: 800px;
+        height: auto;
+    }
+
     header h1 {
         text-align: center;
         font-size: 4px; 
@@ -287,7 +333,7 @@ footer {
     }
 
     nav ul li a {
-        color: rgb(36, 112, 226);
+        color: rgb(2, 2, 2);
         text-decoration: none;
         font-size: 4px; 
     }
@@ -303,11 +349,9 @@ footer {
 
     header {
         color: white;
-        height: 80px;
+        height: 50px;
         width: 100%;
-        background: rgb(55,46,213);
-        background: linear-gradient(90deg, rgba(55,46,213,1) 21%, rgba(9,51,121,1) 35%, rgb(243, 176, 19) 76%);
-   
+       
     }
 
     img{
@@ -328,10 +372,11 @@ footer {
         position: relative;
     }
 
+
     .content p {
         color: black;
         font-weight: 500;
-        font-size: 15px;
+        font-size: 5px;
     }
 
     .content2 h3 {
