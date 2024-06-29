@@ -273,17 +273,18 @@ footer {
 @media only screen and (max-width: 600px) {
     header h1 {
         text-align: center;
-        font-size: 8px;  
+        font-size: 4px; 
+        margin-left: 40px; 
     }
 
     nav ul li a {
         color: rgb(36, 112, 226);
         text-decoration: none;
-        font-size: 8px; 
+        font-size: 4px; 
     }
 
     nav .logo{
-        width: 50px;
+        width: 30px;
         border-radius: 900px;
     }
 
@@ -293,7 +294,7 @@ footer {
 
     header {
         color: white;
-        height: 95px;
+        height: 80px;
         width: 100%;
         background: rgb(55,46,213);
         background: linear-gradient(90deg, rgba(55,46,213,1) 21%, rgba(9,51,121,1) 35%, rgb(243, 176, 19) 76%);
