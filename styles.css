@@ -184,6 +184,7 @@ footer {
     
 }
 
+
 #contact{
     height: auto;
     
@@ -314,7 +315,7 @@ footer {
         justify-content: center; 
         align-items: center; 
         min-height: 40vh;
-          
+        margin-top: -70px;
     }
 
     #about {
@@ -326,6 +327,7 @@ footer {
     #about h2 {
         font-size: 35px;
         margin-bottom: 20px;
+        margin-top: -70px;
     }
     
     #about p {
@@ -337,22 +339,25 @@ footer {
         width: 100%;
         max-width: 800px;
         height: auto;
+        
     }
 
     header h1 {
         text-align: center;
-        font-size: 4px; 
+        font-size: 20px; 
         margin-left: 40px; 
+        display: none;
     }
 
     nav ul li a {
         color: rgb(2, 2, 2);
         text-decoration: none;
-        font-size: 4px; 
+        font-size: 12px; 
+        
     }
 
     nav .logo{
-        width: 30px;
+        width: 110px;
         border-radius: 900px;
     }
 
@@ -386,6 +391,7 @@ footer {
         transform-style: preserve-3d;
         perspective: 1000px;
         position: relative;
+        margin-top: -70px;
     }
 
 
@@ -424,8 +430,14 @@ footer {
      }
 
      #contact h2{
+        margin-top: -90px;
         font-size: 30px;
         margin-bottom: -100px;
+     }
+
+     #services h2{
+        margin-top: -70px;
+
      }
 }
 
@@ -445,7 +457,7 @@ footer {
     }
 
     nav .logo{
-        width: 80px;
+        width: 200px;
         border-radius: 900px;
     }
 
