@@ -36,7 +36,7 @@ header {
 
 header h1 {
     text-align: center;
-    font-size: 20px;  
+    font-size: 40px;  
 }
 
 
@@ -79,7 +79,7 @@ nav ul li a {
 }
 
 .hero {
-    background: url('images/IMG-20240625-WA0012.jpg') no-repeat center center/cover;
+    background: url('images/zamconback.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
     background-position: center;
@@ -89,7 +89,7 @@ nav ul li a {
     flex-direction: column; 
     justify-content: center; 
     align-items: center; 
-    min-height: 100vh;
+    min-height: 70vh;
       
 }
 
@@ -109,6 +109,11 @@ section {
     font-size: 35px;
     margin-bottom: 20px;
 }
+
+#contact h2{
+    font-size: 35px;
+    margin-bottom: -80px;
+ }
 
 #about p {
     margin-bottom: 20px;
@@ -162,6 +167,7 @@ footer {
     border-radius: 50%; 
     box-shadow: 5px 5px 10px #6f7364;
     transition: transform 0.3s ease-in-out; 
+    margin-bottom: -80px;
   }
 
   
@@ -174,6 +180,13 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    height: auto;
+    
+}
+
+#contact{
+    height: auto;
+    
 }
 
 .cards-container {
@@ -290,7 +303,7 @@ footer {
     }
 
     .hero {
-        background: url('images/IMG-20240625-WA0012.jpg') no-repeat center center/cover;
+        background: url('images/zamconback.jpg') no-repeat center center/cover;
         color: white;
         text-align: center;
         background-position: center;
@@ -300,8 +313,8 @@ footer {
         flex-direction: column; 
         justify-content: center; 
         align-items: center; 
-        min-height: 100vh;
-
+        min-height: 40vh;
+          
     }
 
     #about {
@@ -344,12 +357,16 @@ footer {
     }
 
     .container {
-        max-width: 600px ;  
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
 
     header {
         color: white;
-        height: 50px;
+        height: auto;
         width: 100%;
        
     }
@@ -365,7 +382,6 @@ footer {
         align-items: center;
         text-align: center;
         width: 300px;
-        height: 300px;
         transition: 0.15s;
         transform-style: preserve-3d;
         perspective: 1000px;
@@ -387,11 +403,12 @@ footer {
     }
 
     .social img {
-        width: 20px; 
-        height: 20px; 
+        width: 30px; 
+        height: 30px; 
         border-radius: 50%; 
         box-shadow: 5px 5px 10px #6f7364;
         transition: transform 0.3s ease-in-out; 
+        margin-bottom: -80px;
       }
 
       footer {
@@ -400,9 +417,15 @@ footer {
         text-align: center;
         padding: 30px 0;
         width: 100%;
+        
     }
      footer p{
         font-size: 8px;
+     }
+
+     #contact h2{
+        font-size: 30px;
+        margin-bottom: -100px;
      }
 }
 
