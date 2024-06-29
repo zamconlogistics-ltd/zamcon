@@ -320,8 +320,8 @@ footer {
         justify-items: center;
         align-items: center;
         text-align: center;
-        width: 100px;
-        height: 100px;
+        width: 300px;
+        height: 300px;
         transition: 0.15s;
         transform-style: preserve-3d;
         perspective: 1000px;
@@ -331,13 +331,14 @@ footer {
     .content p {
         color: black;
         font-weight: 500;
-        font-size: 4px;
+        font-size: 15px;
     }
 
     .content2 h3 {
         font-weight: 900;
         color: #131212;
-        margin-bottom: 150px;
+        margin-bottom: 330px;
+        font-size: 15px;
     }
 
     .social img {
