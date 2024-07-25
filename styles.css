@@ -425,7 +425,7 @@ footer {
         font-size: 14px;
         width: 100%;
        text-align: center;  
-         
+         margin-left: 30px;
     }
 
     .headlogo img{
@@ -434,10 +434,14 @@ footer {
         align-items: center;
         align-content: center;
         margin-left: 10px;
+        
       }
     
     .nav-container .sidebar ul li img[src="images/3d-techny-international-transportation-and-delivery-logistics.gif"] {
-        width: 200px;
+        width: 150px;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
     }
 
     svg{
@@ -447,6 +451,7 @@ footer {
         align-content: center;
        margin-right: 20px;
         margin-bottom: 25px;
+        margin-left: 70px;
       }
 
     .sidebar{
@@ -569,8 +574,7 @@ footer {
         font-weight: 900;
         color: black;
         margin-bottom: 430px;
-        font-size: 15px;
-
+        font-size: 14px;
     }
 
     .social img {
