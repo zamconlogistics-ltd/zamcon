@@ -420,11 +420,12 @@ footer {
         
     }
 
-    header h1 {
+    .header h1 {
         margin: 0;
         font-size: 14px;
         width: 100%;
-       text-align: center;        
+       text-align: center;  
+         
     }
 
     .headlogo img{
@@ -445,7 +446,7 @@ footer {
         justify-content: center;
         align-content: center;
        margin-right: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
       }
 
     .sidebar{
