@@ -12,20 +12,57 @@
 <script src="enquiry.js"></script>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <img src="images/IMG-20240625-WA0012.jpg" alt="Logo" class="logo">
-                <h1>Zamcon Logistics LTD</h1>
+    <header class="header">
+    
+        <div class="headlogo">
+                <a href="" target="_blank">
+                    <img src="images/3d-techny-international-transportation-and-delivery-logistics.gif" alt="" class="logo">
+        </div>
+        <h1>Zamcon Logistics</h1>
+    
+        <div class="nav-container">
+            <nav class="sidebar">
+                <ul>
+                    <li><img src="images/3d-techny-international-transportation-and-delivery-logistics.gif" alt=""></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li> 
+                    <li><a href="#contact">Contact</a></li>
+                    <li>    
+                        <li><a href="https://www.facebook.com/p/Zamcon-logistics-and-transport-limited-company-100054593044077/" target="_blank">
+                            <img src="images/icons8-facebook-48.png" alt="Facebook Icon">
+                        </a></li>
+                    
+                        <li><a href="https://api.whatsapp.com/send?phone=+260977190686" target="_blank">
+                            <img src="images/icons8-whatsapp-48.png" alt="WhatsApp Icon">
+                        </a></li>
+                        <li><a href="" target="_blank">
+                            <img src="images/icons8-twitterx-50.png" alt="Twitter Icon">
+                        </a></li>
+                       <li> <a href="" target="_blank">
+                        <img src="images/icons8-instagram-48.png" alt="Instagram Icon">
+                    </a></li>
+                        <li><a href="" target="_blank">
+                            <img src="images/icons8-linkedin-48.png" alt="LinkedIn Icon">
+                        </a></li>
+                    <li onclick=hideSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+                </ul>
+            </nav>
+    
+            <nav class="nav">
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About Us</a></li>
                     <li><a href="#services">Services</a></li> 
                     <li><a href="#contact">Contact</a></li>
+                    <li onclick=showSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
                 </ul>
+    
             </nav>
         </div>
     </header>
+
+   
 
     <section id="home" class="hero">
         <div class="container">
@@ -34,15 +71,20 @@
         
     </section>
 
+    
+
     <section id="about">
+        <div class="separator"></div>
         <h2>About Us</h2>
        <p>
         Zamcon Logistics LTD, based in Zambia, is a leading provider of transport and logistics services. We are dedicated to delivering efficient and reliable solutions tailored to meet our clients' needs. Our specialties include the transportation of petroleum products, lubricants, and explosives, ensuring safety and compliance at all times. Additionally, we offer comprehensive warehousing and storage solutions, providing secure and accessible facilities for our clients' goods. At Zamcon Logistics LTD, we pride ourselves on our commitment to excellence and customer satisfaction.
         <p> 
-            <img src="images\IMG-20240625-WA0013.jpg" alt="">     
+            <img src="images\IMG-20240625-WA0013.jpg" alt=""> 
+            <div class="separator"></div>    
     </section>
 
     <section id="services">
+        
         <h2>Services</h2>
         <p>At Zamcon Logistics LTD, we are dedicated to providing a comprehensive range of transport and logistics services to meet the diverse needs of our clients. From efficient and reliable transport solutions to specialized handling of petroleum, lubricants, and explosives, our services ensure the highest standards of safety and efficiency. We also offer robust import and export services and modern warehousing solutions, making us your trusted partner in logistics.</p>
     </section>
@@ -144,7 +186,7 @@
                 </div>
             </div>
         </section>
-
+        <div class="separator"></div>
     </section>
     
 
@@ -181,6 +223,7 @@
       </form>
 </main>
 <section id="contact">
+    
     <h2>Contact Us</h2>
 
         <div class="container">
@@ -207,6 +250,7 @@
             
         </div>
     </section>
+    
    </section>
 
     

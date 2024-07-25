@@ -18,6 +18,40 @@ body {
     width: 100%;
 }
 
+.separator {
+    width: 100%;
+    border-top: 2px solid #000;
+  }
+
+
+  svg{
+    display: none;
+ }
+
+  .sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 200px;
+    z-index: 999;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    backdrop-filter: blur(10px); 
+}
+
+.sidebar li{
+    width: 100%;
+    
+}
+
+.sidebar a{
+    width: 100%;
+    
+}
+
 .container {
     width: 100%;
     margin-left: auto;
@@ -27,23 +61,31 @@ body {
 }
 
 header {
-    color: white;
-    padding: 0px 0;
-    width: 100%;
     background: rgb(55,46,213);
     background: linear-gradient(90deg, rgba(55,46,213,1) 21%, rgba(9,51,121,1) 35%, rgb(243, 176, 19) 76%);
 
 }
 
-header h1 {
-    font-size: 30px;  
-    margin-right: 25%;
+.header {
+  
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: .15em;
+    height: 120px;
 }
 
+.header h1 {
+    color: #000000;
+    margin-left: 10px;
+    text-shadow:2px 2px 4px white;
 
+}
 
 nav{
-   
+   margin-top: 30px;
     top: 0;
     left: 0;
     width: 100%;
@@ -51,32 +93,56 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 0px 3%;
-    border-bottom: 1px solid #000;
+    z-index: 10;
+
+}
+
+.headlogo img{
+    margin-left: 90px;
+    width: 150px;
     
+    transition: transform 0.3s ease-in-out; 
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
 
+  .headlogo a:hover img {
+    transform: scale(1.2); 
+  }
+
+
+.nav-container {
+    display: flex; 
+    align-items: center; 
+    font-weight: 500;
+    margin-right: 2%;
 }
 
-nav .logo{
-    width: 180px;
-    border-radius: 900px;
-}
 nav ul {
-    list-style: none;
-    padding: 0;
+    list-style-type: none;
     text-align: center;
-    font-size: 15px;
+    margin: 0; 
+    padding: 0; 
 }
 
 nav ul li {
-    display: inline-block;
-    margin: 10px 20px;
-    font-weight: 500;
-    cursor: pointer;
+    display: inline-flex;
+    margin-right: 20px;
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(10, 10, 10);
     text-decoration: none;
+}
+nav a:hover {
+    color: gold;
+    transform: scale(1.2); 
+}
+
+    
+.container ul{
+    list-style: none;
 }
 
 .hero {
@@ -355,32 +421,93 @@ footer {
     }
 
     header h1 {
+        margin: 0;
+        font-size: 12px;
+        width: 100%;
+        padding-left: 0px;
+       
+        
+    }
+    
+    .nav-container .sidebar ul li img[src="images/3d-techny-international-transportation-and-delivery-logistics.gif"] {
+        width: 200px;
+    }
+
+    svg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        margin-left: 70px;
+        
+      }
+
+    .sidebar{
+        position: fixed;
+        margin-top: 0;
+        margin-left: 0;
+        height: 100vh;
+        width: 200px;
+        z-index: 999;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        backdrop-filter: (40px); 
+       
+    
+       
+    }
+    
+    .sidebar li{
+        width: 100%;
+        padding-top: 15px;
+        font-weight: 500;
+
+    }
+    
+    .sidebar a{
+        width: 100%;
+        color: black;
         text-align: center;
-        font-size: 15px; 
+        display: block;
+        text-decoration: none;
+    }
+
+    .nav ul li:nth-child(1) {
         display: none;
     }
 
-    nav ul li a {
-        color: rgb(2, 2, 2);
-        text-decoration: none;
-        font-size: 7px;
+    .nav ul li:nth-child(2) {
+        display: none;
     }
 
-    nav ul {
-        list-style-type: none; 
-        padding: 0; 
-        margin: 0; 
+    .nav ul li:nth-child(3) {
+        display: none;
+    }
+
+    .nav ul li:nth-child(4) {
+        display: none;
+    }
+
+    .nav-container {
+        margin-right: 0;
+        display: block;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
     }
 
     nav ul li {
-        display: inline; 
-        margin-right: 6px; 
+      
+        display: block;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        font-size: 15px;  
+      
     }
 
-    nav .logo{
-        width: 100px;
-        border-radius: 900px;
-    }
 
     .container {
         width: 100%;
@@ -398,7 +525,7 @@ footer {
     }
 
     img{
-        width: 200px;
+        width: 50px;
     }
     
 

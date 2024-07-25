@@ -52,8 +52,16 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
-
-
-
 // 25CF2519779F7A74A0CB6748422586E95FEB
 
+// sidebar menu js
+
+function showSidebar(){
+  const sidebar = document.querySelector('.sidebar')
+  sidebar.style.display = 'flex'
+}
+
+function hideSidebar(){
+  const sidebar = document.querySelector('.sidebar')
+  sidebar.style.display = 'none'
+}
