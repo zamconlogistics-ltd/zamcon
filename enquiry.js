@@ -65,3 +65,22 @@ function hideSidebar(){
   const sidebar = document.querySelector('.sidebar')
   sidebar.style.display = 'none'
 }
+
+const video = document.getElementById("myVideo");
+const playPauseBtn = document.getElementById("playPauseBtn");
+const muteBtn = document.getElementById("muteBtn");
+
+playPauseBtn.addEventListener("click", () => {
+    if (video.paused) {
+        video.play();
+        playPauseBtn.textContent = "Pause";
+    } else {
+        video.pause();
+        playPauseBtn.textContent = "Play";
+    }
+});
+
+muteBtn.addEventListener("click", () => {
+    video.muted = !video.muted;
+    muteBtn.textContent = video.muted ? "Unmute" : "Mute";
+});

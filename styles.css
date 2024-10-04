@@ -100,7 +100,7 @@ nav{
 .headlogo img{
     margin-left: 90px;
     width: 150px;
-    
+    border-radius: 50px 0px 50px 0px;
     transition: transform 0.3s ease-in-out; 
     justify-content: center;
     align-items: center;
@@ -146,7 +146,7 @@ nav a:hover {
 }
 
 .hero {
-    background: url('images/zamconback.jpg') no-repeat center center/cover;
+    background: url('images/3d-techny-international-transportation-and-delivery-logistics.gif') no-repeat center center/cover;
     color: white;
     text-align: center;
     background-position: center;
@@ -253,6 +253,8 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     height: auto;
+   margin-top: 80px;
+
     
 }
 
@@ -327,7 +329,7 @@ footer {
 
 .content2 h3 {
     font-weight: 900;
-    color: #131212;
+    color: #080808;
     margin-bottom: 420px;
 }
 
@@ -369,6 +371,24 @@ footer {
     border-radius: 3em;
 }
 
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ad0e0e;
+    padding: 0px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+video {
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    margin-left: 450px;
+}
+
+
 
 /* Extra Small Devices (phones, 600px and down) */
 @media only screen and (max-width: 600px),(max-width: 720px) {
@@ -381,8 +401,25 @@ footer {
         font-size: 4%;
     }
 
+    .video-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #ad0e0e;
+        padding: 0px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        
+    }
+    
+    video {
+        border-radius: 8px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+        margin-left: 20px;
+        width: 350px;
+    }
     .hero {
-        background: url('images/zamconback.jpg') no-repeat center center/cover;
+        background: url('images/3d-techny-international-transportation-and-delivery-logistics.gif') no-repeat center center/cover;
         color: white;
         text-align: center;
         background-position: center;
@@ -393,7 +430,7 @@ footer {
         justify-content: center; 
         align-items: center; 
         min-height: 40vh;
-        margin-top: -70px;
+        margin-top: -20px;
     }
 
     #about {
@@ -434,7 +471,7 @@ footer {
         justify-content: center;
         align-items: center;
         align-content: center;
-        margin-left: 5px;
+        margin-left: 25px;
         
       }
     
